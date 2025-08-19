@@ -1,4 +1,4 @@
-# Numerical Analysis Calculator
+<img width="222" height="48" alt="image" src="https://github.com/user-attachments/assets/84c1de09-815b-44ad-903a-60fd8bfeda9c" /># Numerical Analysis Calculator
 
 This project is a tool for making numerical calculations. It is made for the semester project of Numerical Analysis course at Yıldız Technical University. The project requirements can be found [here](https://drive.google.com/file/d/1Q2WFCe0GWdqJwzVzIHOXvKcb1HJzTQGi/view?usp=drive_link) (The file is in Turkish).
 
@@ -30,7 +30,7 @@ Then, depending on the selected method, the user is asked to enter a matrix or f
 9. Decimal numbers are supported. (1.25 etc.)
 * Some Examples:
 
-$`3\sin^{5x}(x)`$ : 3*sin^(5*x)(x)
+$3\sin^{5x}(x)$ : `3*sin^(5*x)(x)`
 
 $`2\log_{0.5}(\sin(x))`$ : 2*log_(0.5)(sin(x))
 
