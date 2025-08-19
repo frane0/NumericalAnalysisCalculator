@@ -18,7 +18,7 @@ The calculator asks for the numerical method first. User enters a number to choo
 Then, depending on the selected method, the user is asked to enter a matrix or function. After that, program asks for needed parameters. And finally, the program starts the iterations. If it doesn't converge, it stops and prints final values to the user. (Convergence conditions are given by user so it can iterate endlessly.)
 * ### How to enter the function?
 1. Use "+" for summation, "-" for subtraction, "*" for multiplication, "/" for division and "^" for power operations.
-2. This ($`\sqrt{\$4}`$) function has to be in a form like that:
+2. This ($`3x^2+5x+8`$) function has to be in a form like that:
 ```c
 3*x^2+5*x+8
 ```
