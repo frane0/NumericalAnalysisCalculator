@@ -31,7 +31,9 @@ Then, depending on the selected method, the user is asked to enter a matrix or f
 * Some Examples:
 
 $`3\sin^{5x}(x)`$ : 3*sin^(5*x)(x)
+
 $`2\log_{0.5}(\sin(x))`$ : 2*log_(0.5)(sin(x))
+
 $`-e^{2x+4}`$ : -e^(2*x+4)
 
 
