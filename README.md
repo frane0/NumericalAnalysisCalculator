@@ -19,9 +19,7 @@ Then, depending on the selected method, the user is asked to enter a matrix or f
 * ### How to enter the function?
 1. Use only "x" for the variable, "+" for summation, "-" for subtraction, "*" for multiplication, "/" for division and "^" for power operations.
 2. For example, $`3x^2+5x+8`$ has to be entered in a form like that:
-```c
-3*x^2+5*x+8
-```
+`3*x^2+5*x+8`
 3. If you are not sure, use brackets to indicate the priority of the terms.
 4. DO NOT use the SPACE character.
 5. You can use sin() for sine, cos() for cosine, tan() for tangent, cot() for cotangent, sec() for secant, csc() for cosecant. You can also use inverse trigonometric functions by adding arc at the beginning of the function. (e.g. arccos(), arctan()...)
@@ -32,9 +30,9 @@ Then, depending on the selected method, the user is asked to enter a matrix or f
 
 $3\sin^{5x}(x)$ : `3*sin^(5*x)(x)`
 
-$`2\log_{0.5}(\sin(x))`$ : 2*log_(0.5)(sin(x))
+$2\log_{0.5}(\sin(x))$ : `2*log_(0.5)(sin(x))`
 
-$`-e^{2x+4}`$ : -e^(2*x+4)
+$-e^{2x+4}$ : `-e^(2*x+4)`
 
 
 ## How Does It Work?
