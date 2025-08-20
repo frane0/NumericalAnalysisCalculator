@@ -34,6 +34,16 @@ $2\log_{0.5}(\sin(x))$ : `2*log_(0.5)(sin(x))`
 
 $-e^{2x+4}$ : `-e^(2*x+4)`
 
+More detailed explanation can be found [here](https://drive.google.com/file/d/121iX2QlCVMSmyatAt8r1OqkUZmEPSFHV/view?usp=sharing) (The file is in Turkish).
 
 ## How Does It Work?
-Parsing the string
+Parsing the string is being done in 3 steps. 
+
+### 1. Split the String Into Terms
+At this step, program splits the string by using "+" and "-" characters. It counts the opening and closing brackets to differentiate if it is a composite function or a new term. It creates an array of term strings without changing the order.
+
+### 2. Determine the Types and Create the Tree
+At this step, program determines the types of every term and creates the linked list of Term structs. Construction of the tree is explained below in the "Data Structure" part.
+
+### 3. Parse the Composite Functions and Fill the Structs
+At this step, program parses the string inside of every bracket couple. This is being done with recursion so the program runs these 3 steps for every couple of brackets. For each of them, it creates a new branch in the tree and fills every struct in this step.
